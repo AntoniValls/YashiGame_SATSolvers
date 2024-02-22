@@ -12,6 +12,16 @@ A game of Yashi is defined by an $n \times n$ integer grid where $n > 2$, and mo
   <img src="https://github.com/AntoniValls/YashiGame_SATSolvers/assets/101109878/e94e92b7-bb47-4c84-89c7-e2ab2ed235c2" alt="Image">
 </p>
 
+The constraints that we add and respond to the commented criterions are the following:
+
+1. **All points must be inside the grid**.
+2. **No Diagonal Lines**: Each line connecting two points cannot be a diagonal.
+3. **Connect All Points**: Every point must be connected to the tree.
+4. **No Crossing Lines**: Lines should not intersect or cross each other.
+5. **Exactly $n−1$ Lines**: The tree must have exactly $n−1$ lines, where $n$ represents the total number of points.
+6. **No Cycles**: The resulting tree must be cycle-free.
+
+Constraints 1, 2 and 3 are verified during the initialization process while constraints 4, 5, and 6 are handled using SAT techniques.
 ## Diferent versions of the game:
 Given an instance $\mathcal{G}$ of Yashi, we can consider different versions of the game:
 
