@@ -31,3 +31,11 @@ Given an instance $\mathcal{G}$ of Yashi, we can consider different versions of 
 
 ## How to create Yashi instances:
 The Yashi solver recives the initial instances as csv archives. These can either be manually generated or randomly generated. In the project I propose a greedy algorithm that given a dimension and a number of points it creates random instances of Yashi games until it finds a solvable one.
+
+<div style="display: flex;" align="center">
+  <img src="https://github.com/AntoniValls/YashiGame_SATSolvers/assets/101109878/e1e8dba1-716b-4514-8986-f1780a2f1071" alt="Image 1" style="width: 30%;">
+  <img src="https://github.com/AntoniValls/YashiGame_SATSolvers/assets/101109878/82c4d4b4-f73a-4e23-aa24-5cb227e08657" alt="Image 2" style="width: 30%;">
+  <img src="https://github.com/AntoniValls/YashiGame_SATSolvers/assets/101109878/815621e2-f70e-4f55-8b75-31cb585e7658" alt="Image 3" style="width: 30%;">
+</div>
+
+
